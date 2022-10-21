@@ -9,9 +9,16 @@
     min-width: 320px;
     padding: 14px 22px;
     font-size: 18px;
+
+		border-radius: 10px;
 }
 
 .TodoListForm__button {
     margin-left: 8px;
     padding: 12px;
+		border-radius: 20px;
+}
+
+.TodoListForm__button:not(:disabled) {
+	cursor: pointer;
 }
