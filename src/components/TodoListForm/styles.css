@@ -1,0 +1,17 @@
+.TodoListForm {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.TodoListForm__input {
+    min-width: 320px;
+    padding: 14px 22px;
+    font-size: 18px;
+}
+
+.TodoListForm__button {
+    margin-left: 8px;
+    padding: 12px;
+}
