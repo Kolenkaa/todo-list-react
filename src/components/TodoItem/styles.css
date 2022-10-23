@@ -1,6 +1,9 @@
 li {
     display: flex;
     align-items: center;
+		justify-content: flex-start;
+
+		width: 100%;
 }
 
 li p {
@@ -10,7 +13,16 @@ li p {
 li button {
     margin-left: 24px;
     padding: 12px;
-    
+
+		border-radius: 10px;
+		border: 1px  solid rgb(0, 166, 255);
+		background-color: rgb(0, 166, 255);
+		cursor: pointer;
+}
+
+li button:hover {
+	border: 1px  solid rgb(23, 100, 216);
+	background-color: rgb(23, 100, 216);
 }
 
 .TodoItem--completed p {
